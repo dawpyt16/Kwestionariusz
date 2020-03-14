@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Kwestionariusz osobowy</title>
+
+
+</head>
+<body>
+
+<form method="post" mail="mail">
+<fieldset>
+<legend>Kwestionariusz osobowy</legend>
+<fieldset>
+<h3>DANE OSOBOWE</h3><br>
+Imie: <input type="text" name="i1" value=""> &nbsp Drugie imię: <input type="text" name="i2" value=""><br><br>
+Nazwisko: <input type="text" name="n1" value="" maxlength="35" lenght="22"><br><br>
+Data urodzenia: <input type="text" name="d1" value="dd.mm.rrrr"> &nbsp Miejscowość: <input type="text" name="m1" value=""><br><br>
+PESEL: <input type="text" name="pesel" value=""><br><br>
+</fieldset><br>
+
+<fieldset>
+<h3>DANE ADRESOWE</h3><br>
+Ulica: <input type="text" name="ul" value=""> &nbsp Numer domu/mieszkania: <input type="text" name="mjsc" value=""><br>
+<br>
+Kod pocztowy: <input type="text" name="kod" value=""> &nbsp Miejscowość: <input type="text" name="m2" value=""><br><br>
+</fieldset><br>
+<fieldset>
+<h3>DANE KONTAKTOWE</h3><br>
+Numer telefonu: <input type="text" name="nr1" value=""> &nbsp adres e-mail: <input type="mail" name="e1" value=""><br><br>
+</fieldset><br>
+<fieldset>
+<h3>ZNAJOMOŚĆ JĘZYKÓW OBCYCH</h3>
+<br>
+W stopniu komunikatywnym:
+<select name="jez" name="ppp">
+<optgroup name="ppp" name="ppp" value="slow">slowianskie
+<option value="polski">polski
+<option value="polski">rosyjski
+<option value="polski">ukraiński
+</optgroup>
+<optgroup name="ger">germanskie
+
+<option value="polski">angielski
+<option value="polski">niemiecki
+<option value="polski">francuski
+
+</optgroup>
+</select>
+
+ W stopniu podstawowym:
+ 
+ <select>
+
+<option value="polski">polski
+<option value="polski">rosyjski
+<option value="polski">włoski
+<option value="polski">angielski
+<option value="polski">ukraiński
+
+</select>
+
+<br><br>
+</fieldset><br>
+<fieldset>
+Napisz kilka słów o sobie:<br>
+<textarea value="" rows=5 cols=50>Napisz coś o sobie...</textarea>
+
+<br><br>
+</fieldset><br>
+<fieldset>
+Jeśli mógłbyś/mogłabyś wybrać Państwo, w którym chciał/a mieszkać, które byś wybrał/a?<br>
+<input type="text" name="car" value="" list="car">
+<datalist id="car">
+<option value="Włochy">
+<option value="Chiny">
+<option value="Niemcy">
+<option value="Rosja">
+<option value="Czechy">
+</datalist>
+<br>
+</fieldset><br>
+
+<fieldset>
+Jakie posiadasz wykształcenie?<br>
+<input type="radio" name=r1 value="">podstawowe<br>
+<input type="radio" name=r1 value="">gimnazjalne<br>
+<input type="radio" name=r1 value="">średnie<br>
+<input type="radio" name=r1 value="">wyższe<br>
+<input type="radio" name=r1 value="">wyższe + studia podyplomowe<br>
+<br><br>
+</fieldset><br>
+<fieldset>
+Załącz plik z CV: <input type="file" name="cv"><br><br>
+</fieldset><br>
+<fieldset>
+Ile pieniędzy chiałbys zarabiać? <input type="number">złotych/godzine<br><br>
+</fieldset><br>
+<fieldset>
+Wybierz swój ulubioniy kolor <input type="color" name="kolor"><br><br>
+</fieldset><br>
+<fieldset>
+
+<input type="checkbox" name=ch1 value="">Akceptuję regulamin firmy PEX<br>
+<input type="checkbox" name=ch2 value="">Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji (zgodnie z Ustawami tekst jednolity: Dz U. 2016r. poz. 922)
+<br>
+</fieldset><br><br>
+<input type="submit" name=sub value="Wyślij">
+<input type="reset" name=clr value="Wyczyść">
+
+</fieldset>
+</form>
+</body>
+</html>
